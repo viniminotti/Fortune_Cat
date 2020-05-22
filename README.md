@@ -3,4 +3,4 @@ Simulator Fortune Cat developed in javascript, based in the mobile game Saint Se
 
 Anderson Eliel A Rodrigues - andersonelielrodrigues@gmail.com
 Vinicius Minotti - viniminotti@hotmail.com
-View Online at http://...
+View Online at https://github.com/viniminotti/Fortune_Cat.git
