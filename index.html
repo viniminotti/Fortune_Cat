@@ -1,0 +1,51 @@
+<!--
+    index.html  v 1.1   Fortune Cat
+    v 1.1   2020-05-22  Anderson E A Rodrigues - andersonelielrodrigues@gmail.com
+                        Vinicius Minotti - viniminotti@hotmail.com
+    v 1.0   2020-04-23
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta http-equiv="Content-Language" content="pt-br"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="CdZ Awakening - Fortune Cat"/>
+        <meta name="author" content="Anderson E A Rodrigues"/>
+
+        <title>CdZ Awakening - Fortune Cat</title>
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+	<body>
+        <h2>Fortune Cat</h2>
+
+        <table class="table_border">
+            <tr>
+                <td>Custo</td><td class="td_input"><input id="ipCost" size="4" value="20" readonly="true"/></td>
+            </tr>
+            <tr>
+                <td>Prêmio máximo possível</td><td class="td_input"><input id="ipMaxReward" size="4" value="8" readonly="true"/></td>
+            </tr>
+            <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr>
+                <td>Ganhou</td><td class="td_input"><input id="ipReward" size="4" readonly="true"/></td>
+            </tr>
+            <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr>
+                <td>Atualmente possui</td><td class="td_input"><input id="ipGems" size="4"/></td>
+            </tr>
+            <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr>
+                <td>&nbsp;</td><td class="td_input"><Button onclick="runCat()">Começar</Button></td>
+            </tr>
+        </table>
+
+        <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
